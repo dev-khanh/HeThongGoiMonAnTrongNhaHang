@@ -17,6 +17,11 @@ $ Tài khoản giao diện phục vụ: phucvu/phucvu
 ```
 & Tài khoản giao diện quản lý: quanly/quanly
 ```
+## Firebase
+
+```
+$ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
+```
 
 
 
