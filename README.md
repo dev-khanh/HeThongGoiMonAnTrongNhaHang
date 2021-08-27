@@ -35,19 +35,19 @@ $ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormNhaBep.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormPhucVu.png)|
 
-|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|<h1 align="center">Cashier Sign Out</h1>|<h1 align="center">Management Directory</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormThuNgan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/danhMucQuanLy.png)|
 
-|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|<h1 align="center">Bill</h1>|<h1 align="center">When Clicking The Pay Button</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/hoaDonThanhToan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/khiNhanNutThanhToan.png)|
 
-|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|<h1 align="center">Kitchen</h1>|<h1 align="center">Manage</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/nhaBep.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/quanLy.png)|
 
-|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|<h1 align="center">Kitchen Manager</h1>|<h1 align="center">Cashier</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/quanLyBanAn.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/thuNgan.png)|
 
