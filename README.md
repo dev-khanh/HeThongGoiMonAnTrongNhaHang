@@ -23,9 +23,13 @@ $ Tài khoản giao diện phục vụ: phucvu/phucvu
 $ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
 ```
 ## Screenshots
-|<h1 align="center">Before</h1>|<h1 align="center">After</h1>|
+|<h1 align="center">
+```
+Before
+```
+</h1>|<h1 align="center">After</h1>|
 |--------|--------|
-|![Simulator Screen Shot - iPhone 11 - 2021-04-15 at 21 19 04](https://user-images.githubusercontent.com/72178274/114885783-3386f200-9e31-11eb-8349-4a2b40ada665.png)|![Simulator Screen Shot - iPhone 11 - 2021-04-15 at 21 19 17](https://user-images.githubusercontent.com/72178274/114885804-38e43c80-9e31-11eb-9884-a81428e950c1.png)|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonBan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonMon.png)|
 
 
 
