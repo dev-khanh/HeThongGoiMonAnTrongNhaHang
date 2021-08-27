@@ -23,11 +23,7 @@ $ Tài khoản giao diện phục vụ: phucvu/phucvu
 $ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
 ```
 ## Screenshots
-|<h1 align="center">
-```
-Before
-```
-</h1>|<h1 align="center">After</h1>|
+|<h1 align="center">Choose Table</h1>|<h1 align="center">Choose Food</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonBan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonMon.png)|
 
