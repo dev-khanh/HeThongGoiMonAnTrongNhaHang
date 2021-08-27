@@ -1,10 +1,23 @@
 # HeThongGoiMonAnTrongNhaHang
 
-## Prerequisite
+## Account
 
 ```
-$ sudo gem install cocoapods
+$ Tài khoản giao diện phục vụ: phucvu/phucvu
 ```
+
+```
+& Tài khoản giao diện nhà bếp: nhabep/nhabep
+```
+
+```
+& Tài khoản giao diện thu ngân: thungan/thungan
+```
+
+```
+& Tài khoản giao diện quản lý: quanly/quanly
+```
+
 
 
 | Key                             | Description                                                                                                                                                                 | Example                                                                                  |
