@@ -31,11 +31,25 @@ $ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonNhomMon.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangNhap.png)|
 
-|<h1 align="center">Choose Dish Group</h1>|<h1 align="center">Log In</h1>|
+|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
 |--------|--------|
-|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonNhomMon.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangNhap.png)|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormNhaBep.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormPhucVu.png)|
 
+|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|--------|--------|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangXuatFormThuNgan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/danhMucQuanLy.png)|
 
+|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|--------|--------|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/hoaDonThanhToan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/khiNhanNutThanhToan.png)|
+
+|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|--------|--------|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/nhaBep.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/quanLy.png)|
+
+|<h1 align="center">Kitchen Logout</h1>|<h1 align="center">Service Logout</h1>|
+|--------|--------|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/quanLyBanAn.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/thuNgan.png)|
 
 
 | Key                             | Description                                                                                                                                                                 | Example                                                                                  |
