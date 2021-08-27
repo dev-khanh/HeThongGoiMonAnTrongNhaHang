@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:id="@+id/img_dt_hinh"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+
+        android:id="@+id/tv_dt_chui"
+        android:layout_marginTop="14pt"
+        android:layout_marginLeft="7pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin Chào"
+        android:textColor="#ff0011"
+        android:textSize="6pt"
+        />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+
+    android:listSelector="@drawable/lv_goi"
+
+    > <!--android:background="@drawable/round"-->
+    <ImageView
+        android:id="@+id/img_khanh_Monan"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        />
+    <!--android:background="@drawable/tron"-->
+
+
+    <TextView
+
+        android:paddingTop="7dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Tên Bàn"
+        android:id="@+id/tv_khanh_Tenban"
+        android:textSize="15sp"
+        android:textColor="#000"
+
+
+        android:layout_toRightOf="@+id/img_khanh_Monan"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/img_khanh_ban"
+        android:text="Giá Tiền"
+        android:id="@+id/tv_khanh_gia"
+        android:textSize="15sp"
+        android:textColor="#0e13d9"
+        android:layout_below="@+id/tv_khanh_Tenban"
+
+        android:layout_toRightOf="@+id/img_khanh_Monan"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+         />
+</RelativeLayout>

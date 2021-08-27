@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widget"
+    >
+    <RelativeLayout
+        android:id="@+id/rela"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/khanh_main"
+            android:weightSum="10"
+            >
+
+
+            <ListView
+                android:id="@+id/lv_khanh_ds"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                />
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:weightSum="10"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4.5"
+                    >
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Đang Gọi"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:textSize="8pt"
+                        android:layout_weight="1"
+                        android:background="#f78e06"
+                        />
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Đã Gọi"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:textSize="8pt"
+                        android:layout_weight="1"
+                        android:background="#f78e06"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    >
+
+                    <ListView
+                        android:id="@+id/lv_khanh_Show"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+
+                        />
+                    <ListView
+                        android:id="@+id/lv_khanh_Da_Goi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.5"
+                    android:background="#f78e06"
+                    >
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Tiền:"
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:id="@+id/lableTongTienDangGoi"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:layout_toRightOf="@+id/lableTongTienDangGoi"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/tv_tongTienDangGoi"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VNĐ"
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:layout_marginLeft="5dp"
+                            android:id="@+id/lableLoaiTien"
+                            android:layout_toRightOf="@+id/tv_tongTienDangGoi"
+                            />
+                        <Button
+                            android:id="@+id/btn_Goi_mon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Gọi Món"
+                            android:textColor="#fff"
+                            android:textAllCaps="false"
+                            android:layout_centerHorizontal="true"
+                            android:layout_below="@+id/lableLoaiTien"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/customs_bg_button"
+                            />
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tổng Tiền: "
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:id="@+id/lableTongTienDaGoi"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0 "
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:layout_toRightOf="@+id/lableTongTienDaGoi"
+                            android:id="@+id/tv_tongTienDaGoi"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="VNĐ"
+                            android:textColor="#fff"
+                            android:textSize="6pt"
+                            android:layout_toRightOf="@+id/tv_tongTienDaGoi"
+                            android:id="@+id/lableLoaiTienDaGoi"
+                            />
+                        <Button
+                            android:id="@+id/Click_Thanh_Toan"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Thanh Toán"
+                            android:textColor="#fff"
+                            android:textAllCaps="false"
+                            android:layout_below="@+id/lableLoaiTienDaGoi"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/customs_bg_button"
+
+                            />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <include
+        layout="@layout/khanh_item_menu"/>
+
+
+</android.support.v4.widget.DrawerLayout>

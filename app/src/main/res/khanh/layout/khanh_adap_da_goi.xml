@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    >
+
+    <TextView
+
+
+        android:id="@+id/tv_tenmon1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gà chiên "
+        android:textColor="#fff"
+        android:textSize="7pt"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:id="@+id/tv_giatien1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20000 VNĐ"
+        android:textColor="#ddff00"
+
+        android:textSize="12dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SL: "
+            android:textColor="#ff00"
+            android:textSize="7pt"
+
+
+            />
+        <TextView
+            android:id="@+id/tv_So_Luong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1:"
+            android:textColor="#ff00"
+            android:textSize="7pt"
+
+
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_thanhTien1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Trạng Thái)"
+        android:textColor="#1eff00"
+        android:textSize="7pt"
+        android:layout_weight="1"
+        />
+</LinearLayout>

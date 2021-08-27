@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c41f1f</color>
+    <color name="colorPrimaryDark">#7b1010</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="radio_co_khong">#09e41e</color>
+</resources>

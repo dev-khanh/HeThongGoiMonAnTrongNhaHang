@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/customs_listview_gridview">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số HD: "
+        android:textColor="#0f0ff2"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:id="@+id/lbIdPay"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_toRightOf="@+id/lbIdPay"
+        android:id="@+id/tvIdPay"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày lập: "
+        android:textColor="#0f0ff2"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lbIdPay"
+        android:id="@+id/lbDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00/00/0000"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvIdPay"
+        android:layout_toRightOf="@+id/lbDate"
+        android:id="@+id/tvDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bàn: "
+        android:textColor="#0f0ff2"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lbDate"
+        android:id="@+id/lbTable"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvDate"
+        android:layout_toRightOf="@+id/lbTable"
+        android:id="@+id/tvTable"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhân viên: "
+        android:textColor="#0f0ff2"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lbTable"
+        android:id="@+id/lbNV"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nhan vien"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvTable"
+        android:layout_toRightOf="@+id/lbNV"
+        android:id="@+id/tvNV"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tổng Thanh Toán: "
+        android:textColor="#0f0ff2"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/lbNV"
+        android:id="@+id/lbSumMoney"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvNV"
+        android:layout_toRightOf="@+id/lbSumMoney"
+        android:id="@+id/tvSumMoney"/>
+</RelativeLayout>

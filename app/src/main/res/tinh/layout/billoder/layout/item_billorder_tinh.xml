@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/customs_listview_gridview">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số phiếu: "
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:id="@+id/lbIdOrder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_toRightOf="@+id/lbIdOrder"
+        android:id="@+id/tvIdOrder"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngày lập: "
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/lbIdOrder"
+        android:id="@+id/lbDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00/00/0000"
+        android:textColor="#000"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvIdOrder"
+        android:layout_toRightOf="@+id/lbDate"
+        android:id="@+id/tvDate"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bàn: "
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:layout_below="@+id/lbDate"
+        android:id="@+id/lbTable"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đã xóa"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_below="@+id/tvDate"
+        android:layout_toRightOf="@+id/lbTable"
+        android:id="@+id/tvTable"/>
+</RelativeLayout>

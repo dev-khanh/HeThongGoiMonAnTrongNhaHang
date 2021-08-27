@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#09e41e"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:text="Lựa Chọn"
+            android:textColor="#ffffff"
+            android:textSize="8pt"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="#ffffff"
+        >
+        <RadioGroup
+            android:id="@+id/radio_gro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <RadioButton
+                android:id="@+id/radio_co"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Có mã giảm giá"
+                android:shadowColor="#000"
+                android:buttonTint="@color/radio_co_khong"
+                />
+            <EditText
+                android:id="@+id/edt_ma_giam_gia"
+                android:layout_marginLeft="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nhập Mã giảm giá"
+                android:backgroundTint="#c4c3c3"
+                android:enabled="false"
+                android:background="@android:drawable/editbox_background"
+                />
+            <RadioButton
+                android:id="@+id/radio_khong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Không có mã giảm giá"
+                android:checked="true"
+
+                android:buttonTint="@color/radio_co_khong"
+                />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18pt"
+            android:layout_marginTop="10dp"
+            >
+            <Button
+                android:id="@+id/btn_thanhtoan"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Thanh Toán"
+                android:layout_marginEnd="10pt"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:background="@drawable/customs_bg_button"
+
+                />
+            <Button
+                android:id="@+id/btn_HuyThanhToan"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:text="Hủy"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:background="@drawable/customs_bg_button"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

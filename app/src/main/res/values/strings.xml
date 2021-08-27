@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Order</string>
+    <string name="Open"></string>
+    <string name="Close"></string>
+
+    <string name="Chon_Ban">Chọn Bàn</string>
+    <string name="Nhap_Bep">Nhà Bếp</string>
+    <string name="Thu_Ngan">Thu Ngân</string>
+    <string name="nh_p_so_tien">Nhập số tiền</string>
+</resources>

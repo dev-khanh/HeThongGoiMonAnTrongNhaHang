@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10">
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:numColumns="2"
+        android:id="@+id/gv"/>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#e4a110">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng số: 0"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/tvSum"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Xóa Nhiều"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/customs_bg_button"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/btnDetele"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Tạo"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:background="@drawable/customs_bg_button"
+            app:layout_constraintRight_toLeftOf="@+id/btnDetele"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/btnCreate"/>
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

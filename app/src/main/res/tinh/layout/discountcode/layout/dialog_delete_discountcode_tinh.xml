@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa Mã Giảm Giá"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:background="#3bea13"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:padding="10dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Những mã hết hạn"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Từ ngày: "
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00/00/0000"
+                android:textSize="12sp"
+                android:textColor="#ec1515"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvStartDate"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đến ngày: "
+                android:textSize="12sp"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00/00/0000"
+                android:textSize="12sp"
+                android:textColor="#ec1515"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvEndDate"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/customs_bg_button"
+                android:text="Xong"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:id="@+id/btnSave"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:background="@drawable/customs_bg_button"
+                android:text="Đóng"
+                android:textSize="12sp"
+                android:textColor="#fff"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/btnClose"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

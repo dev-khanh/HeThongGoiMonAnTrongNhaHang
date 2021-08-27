@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hệ Thống Gọi Món Ăn"
+        android:background="#3bea13"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:weightSum="10">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tài khoản (6 -> 30 ký tự)"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:inputType="text"
+                android:textColor="#000"
+                android:background="#d1cbcb"
+                android:id="@+id/edtUserName"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu (6 -> 30 ký tự)"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:inputType="textPassword"
+                android:textColor="#000"
+                android:background="#d1cbcb"
+                android:layout_marginTop="5dp"
+                android:id="@+id/edtPassWord"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:weightSum="10">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.4"
+            android:background="@drawable/customs_bg_button"
+            android:textColor="#fff"
+            android:text="Đăng Nhập"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:id="@+id/btnLogin"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.4"
+            android:background="@drawable/customs_bg_button"
+            android:textColor="#fff"
+            android:text="Thoát"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:id="@+id/btnCancel"/>
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"/>
+    </LinearLayout>
+</LinearLayout>
