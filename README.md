@@ -26,6 +26,9 @@ $ user: nienluan3cntt9 pass: nienluan3cntt90123)!@#
 |<h1 align="center">Choose Table</h1>|<h1 align="center">Choose Food</h1>|
 |--------|--------|
 |![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonBan.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonMon.png)|
+|<h1 align="center">Choose Dish Group</h1>|<h1 align="center">Log Inn</h1>|
+|--------|--------|
+|![a](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/chonNhomMon.png)|![b](https://raw.githubusercontent.com/dev-khanh/HeThongGoiMonAnTrongNhaHang/master/thiet_ke/thietke/dangNhap.png)|
 
 
 
